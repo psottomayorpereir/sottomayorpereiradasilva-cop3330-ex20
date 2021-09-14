@@ -42,10 +42,11 @@ public class App
         }
 
         if(state.equals("Wisconsin") || state.equals("Illinois")){
-            System.out.printf("The subtotal is $%.2f.\n", amount);
-            System.out.printf("The tax is $%.2f.\n", tax);
+            System.out.printf("The subtotal is $%.2f.\nThe tax is $%.2f.\nThe total is $%.2f.", amount, tax, total);
         }
-        System.out.printf("The total is $%.2f.\n", total);
+        else{
+            System.out.printf("The total is $%.2f.\n", total);
+        }
 
 
     }
